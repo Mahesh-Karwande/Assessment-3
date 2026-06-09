@@ -1,0 +1,2 @@
+The brief requested a bespoke, code-driven reconciliation engine. However, treating this purely as a coding exercise ignores the reality of the organization's stated goal: migrating to an Azure-native stack. Instead of building isolated Python scripts, I architected this entirely within Microsoft Fabric. This approach eliminates the need for complex VNet integrations, reduces heavy coding maintenance, and leverages Dataflow Gen2 and Synapse to deliver immediate value to Finance.
+
