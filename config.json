@@ -1,0 +1,9 @@
+{
+    "reconciliation_name": "loan_to_bank",
+    "source_1_path": "Files/loan_transactions.csv",
+    "source_1_filter": "transaction_type == 'REPAYMENT'",
+    "source_2_path": "Files/bank_transactions.csv",
+    "join_key": "end_to_end_id",
+    "amount_col": "amount",
+    "tolerance": 0.01
+}
